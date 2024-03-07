@@ -1,0 +1,59 @@
+.dashboard-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  flex-wrap: wrap;
+}
+
+.dashboard-main i {
+  color: lightgray;
+  font-size: 80px;
+}
+
+.logout-button {
+  background: lightblue;
+  color: white;
+
+  width: 300px;
+  padding: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 20px;
+}
+.container h3 {
+  text-align: center;
+}
+
+.container span {
+  color: olivedrab;
+}
+@media screen and (max-width: 760px) {
+  .dashboard-main i {
+    font-size: 30px; /* Adjust the font size as needed */
+    padding: 2px;
+  }
+  .logout-button {
+    width: 100%;
+    max-width: 200px;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 467px) {
+  .dashboard-main {
+    flex-direction: column;
+  }
+}
